@@ -19,7 +19,8 @@ from . import views
 import requests
 
 urlpatterns = [
+    path('', views.ApiRequest.Start ),
     path('admin/', admin.site.urls),
     path('emails/', include('mailsender.urls')),
-    path('', views.ApiRequest.Start ),
+    path('stockapi/', views.ApiRequest.Test)
 ]

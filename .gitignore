@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 ./.venv/
 
 ./mailproject/.env
+=======
+./.*
+./mailproject/.*
+./*/*/.*
+./venv/
+>>>>>>> ccd70fd711d408c5fd7183f4306bb4a5d360c975
